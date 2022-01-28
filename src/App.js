@@ -1,9 +1,7 @@
 import React from 'react'
-import Navbar from './Navbar'
-import flagsmithHOC from './FlagsmithHOC'
+import NavbarFeature from './Navbar'
 
 function App() {
-	const NavbarFeature = flagsmithHOC(Navbar, 'navbar')
 
 	return (
 		<div>
